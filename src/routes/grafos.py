@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 from config.mongodb import coneccion
 from schemas.grafoSchema import grafoEntity, grafosEntity
-from models.grafo import Grafo
+from models.grafoModel import Grafo
 
 grafo = APIRouter()
 
