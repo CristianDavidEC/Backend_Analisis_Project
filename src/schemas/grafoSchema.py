@@ -1,6 +1,6 @@
 def grafoEntity(item) -> dict:
     return {
-        'id': item['id'],
+        'id': str(item['_id']),
         'name': item['name'],
         'descripcion': item['descripcion'],
         'nodes': item['nodes']
