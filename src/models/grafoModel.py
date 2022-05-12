@@ -7,3 +7,9 @@ class Grafo(BaseModel):
     name: str
     descripcion: str
     nodes: list [dict]
+
+class GrafoOut(BaseModel):
+    id: str
+    name: str
+    descripcion: str
+    nodes: list [dict]
