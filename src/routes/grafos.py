@@ -5,7 +5,6 @@ from config.mongodb import db
 from schemas.grafoSchema import grafoEntity, grafosEntity
 from models.grafoModel import Grafo, GrafoOut
 
-
 grafo = APIRouter()
 
 # Consulta todos los grafos
